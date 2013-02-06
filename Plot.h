@@ -3,8 +3,7 @@
 #ifndef PLOT_H
 #define PLOT_H
 
-#include <fstream>
-#include <string>
+#include <stdio.h>
 
 using namespace std;
 
