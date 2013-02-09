@@ -2,7 +2,7 @@ CXX=g++
 CXXFLAGS=-g
 LIBS=-lm
 OBJECTS=main.o Plot.o Polygons.o Polygon.o
-PROJECT=OvenSim
+PROJECT=PolygonPacking
 
 all: $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $(LIBS) $(OBJECTS) -o $(PROJECT)
