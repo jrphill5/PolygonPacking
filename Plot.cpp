@@ -23,7 +23,6 @@ Plot::Plot()
 	this->ymin = -this->ymax;
 
 	gnuplot = popen("gnuplot -geometry 600x600 - > /dev/null 2>&1","w");
-	//write("set term postscript eps color");
 	setArea();
 	write("unset key");
 	write("set format ''");
