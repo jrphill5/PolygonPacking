@@ -168,11 +168,11 @@ int main()
 				break;
 
 			case 99:
+				//plot->write("set term png enhanced color");
 				//plot->write("set term postscript eps enhanced color");
 				plot->write("set terminal svg enhanced size 800 800");
 				plot->write("set object 2147483647 rect from screen 0, 0, 0 to screen 1, 1, 0 behind");
 				plot->write("set object 2147483647 rect fc rgb 'white' fillstyle solid 1.0");
-				//plot->write("set term png enhanced color");
 				char savefile[128]; sprintf(savefile, "./screenshots/oven-%Lu.svg", (unsigned long long)time( NULL ));
 				char command[128];  sprintf(command,  "set out \"%s\"",					savefile);
 				char status[128];   sprintf(status,   "Screenshot saved to \"%s\".",	savefile);
