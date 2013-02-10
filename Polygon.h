@@ -4,7 +4,6 @@
 #define TREE_H
 
 #include "Plot.h"
-#include <iostream>
 #include <math.h>
 #include <vector>
 
