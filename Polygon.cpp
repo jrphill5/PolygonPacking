@@ -2,7 +2,7 @@
 
 #include "Polygon.h"
 
-const double pi = 3.141592653589793;
+const double pi = 3.14159265358979;
 
 Polygon::Polygon( double x, double y, int n, double A, int t, int id, vector< double > parentNormal )
 {
