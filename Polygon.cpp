@@ -14,7 +14,7 @@ Polygon::Polygon( double x, double y, int n, double A, int t, int id, vector< do
 	this->id = id;
 	this->A = A;
 
-	if( this->id > 2147483646 ) printf("Index %ld too large!\n", this->id);
+	if( this->id > 2147483647 ) printf("Index %ld too large!\n", this->id);
 
 	this->hidden = false;
 
